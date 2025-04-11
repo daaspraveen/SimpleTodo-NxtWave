@@ -3,12 +3,14 @@
   background-color: #ffc2a0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 10px;
   width: 100%;
   min-height: 100vh;
+  padding-top: 50px;
 }
 .card {
+  width: 100%;
   max-width: 600px;
   border-radius: 10px;
   background-color: #fff;
@@ -24,12 +26,57 @@
   font-size: 36px;
   color: #ff8542;
 }
+.input-box {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.todo-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 10px;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px 18px;
+  font-weight: 500;
+}
+button:hover {
+  transform: scaleX(1.02);
+}
+.add-btn {
+  color: #fff;
+  background-color: steelblue;
+}
 .todos-box {
   width: 100%;
+  padding: 10px;
   margin: auto;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-top: 10px;
+  }
+  .todos-box {
+    padding: 10px 5px;
+  }
 }

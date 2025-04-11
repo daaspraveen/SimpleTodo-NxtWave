@@ -7,18 +7,42 @@
   align-items: center;
   gap: 15px;
 }
+.input-edit {
+  width: 100%;
+  padding: 8px 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+}
 .todo-para {
-  font-size: 14px;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
   color: #000;
   text-align: left;
+  margin: 0;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.btns-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 .todo-delete-btn {
   font-size: 12px;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
   color: #ff0b37;
   background-color: #fff;
   border: 2px solid #ff0b37;
-  outline: none;
+  cursor: pointer;
+}
+.saveEdit-btn {
+  background-color: lavender;
+  padding: 8px;
+}
+.checkbox {
   cursor: pointer;
 }
