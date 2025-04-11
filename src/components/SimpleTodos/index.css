@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+.card {
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  font-family: Roboto;
+}
+.heading {
+  font-size: 36px;
+  color: #ff8542;
+}
+.todos-box {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
